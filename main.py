@@ -1,6 +1,5 @@
 import random
 import time
-hexadecimal = '0123456789abcdef'
 def hexadecimal(size: int):
     return ''.join(random.choices('0123456789abcdef',k=size))
 def mk():
