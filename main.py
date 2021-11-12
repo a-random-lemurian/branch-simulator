@@ -9,13 +9,16 @@ def rm():
         random.randint(1,80000) >= random.randint(75000,80000)
            )
 branches = 1
+step = 0
 while True:
     if mk():
-        print('|'*branches+'\\')
+        output = '|'*branches+'\\'
         branches += 1
     elif ( branches != 1 and rm() ):
-        print('|'*(branches-1)+'/')
+        output = '|'*(branches-1)+'/'
         branches -= 1
     else:
-        print('|'*branches)
+        output = '|'*branches
+    print(f'{output:<60} {branches:>9} {step}')
+    step += 1
     time.sleep(0.001)
