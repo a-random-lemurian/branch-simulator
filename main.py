@@ -2,11 +2,11 @@ import random
 import time
 def mk():
     return (
-        random.randint(1,80000) >= 78000
+        random.randint(1,80000) >= random.randint(75000,80000)
            )
 def rm():
     return (
-        random.randint(1,80000) >= 79000
+        random.randint(1,80000) >= random.randint(75000,80000)
            )
 branches = 1
 while True:
