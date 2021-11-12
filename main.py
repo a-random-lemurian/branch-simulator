@@ -30,9 +30,10 @@ def type2():
     step = 0
     front = ' '*16
     while True:
-        print(front,'* ',hexadecimal(7))
+        output = front+'* '+hexadecimal(7)
+        print(output)
         for _ in range(3):
-            print(front,'|')
+            print(front+'| ')
 
 TYPES = [type1, type2]
 
