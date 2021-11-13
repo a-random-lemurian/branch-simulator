@@ -16,7 +16,7 @@ def rm():
         random.randint(1,80000) >= random.randint(75000,80000)
            )
 
-TYPES = [type1, type2]
+TYPES = [type1, type2, type3]
 
 if __name__ == '__main__':
     chosenType = random.choices(TYPES,k=1)[0]
