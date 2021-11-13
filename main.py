@@ -1,8 +1,8 @@
 import random
 
-from type1 import type1
-from type2 import type2
-from type3 import type3
+from type1 import branchsim as type1
+from type2 import branchsim as type2
+from type3 import branchsim as type3
 
 TYPES = [type1, type2, type3]
 

@@ -1,6 +1,6 @@
 import time
 from utils import mk, rm
-def type1():
+def branchsim():
     branches = 1
     step = 0
     while True:

@@ -24,7 +24,7 @@ def twobranch(maincm,branchcm):
     print('|/')
     return
 
-def type3():
+def branchsim():
     while True:
         singlebranch(random.randint(1,66))
         twobranch(random.randint(3,79),random.randint(3,79))

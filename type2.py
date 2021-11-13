@@ -1,5 +1,5 @@
 from main import hexadecimal
-def type2():
+def branchsim():
     #branches = 1
     #step = 0
     front = ' '*16
