@@ -1,4 +1,4 @@
-from main import hexadecimal
+from utils import hexadecimal
 def branchsim():
     #branches = 1
     #step = 0
