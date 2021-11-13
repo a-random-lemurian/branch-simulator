@@ -1,5 +1,5 @@
 import time
-from main import mk, rm
+from utils import mk, rm
 def type1():
     branches = 1
     step = 0
